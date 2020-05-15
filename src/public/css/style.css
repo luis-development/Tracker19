@@ -1,0 +1,32 @@
+body {
+    background: #252424;
+}
+
+.logo {
+    width: 50%;
+}
+
+.tracker {
+    color: white;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.infect {
+    color: red;
+}
+
+.recover {
+    color: green;
+}
+
+.deaths {
+    color: black;
+}

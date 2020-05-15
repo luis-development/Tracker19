@@ -1,0 +1,23 @@
+<h1 class="tracker">All Countrys</h1>
+<div class="row">
+  {{#each publics}}
+  <div class="col-md-3">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-between align-items-center">
+          Upload By: {{ user }}
+        </h4>
+        <p class="country">Country: {{ country }} </p>
+        <p class="infect"><strong>Infecteds:</strong> {{ infect }} </p>
+        <p class="recover"><strong>Recovereds: </strong>{{ recover }} </p>
+        <p class="deaths"><strong>Deaths: </strong>{{ death }} </p>
+        <p>Rest: {{ rest }} </p>
+        <!-- DELETE REQUEST -->
+        <!--<form action="/coment/delete/{{_id}}?_method=DELETE" method="POST">
+          <input type="hidden" name="_method" value="DELETE">
+          <button type="submit" class="btn btn-danger btn-block btn-sm">Delete</button>
+        </form>-->
+      </div>
+    </div>
+  </div>
+  {{/each}}
